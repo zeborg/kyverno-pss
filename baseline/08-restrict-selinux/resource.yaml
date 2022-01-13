@@ -1241,7 +1241,7 @@ spec:
     image: dummyimagename
   securityContext:
     seLinuxOptions:
-      user: sysadm_u
+      user: 
 ---
 apiVersion: v1
 kind: Pod
