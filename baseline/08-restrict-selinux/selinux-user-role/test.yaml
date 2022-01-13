@@ -12,87 +12,87 @@ results:
     rule: selinux-user-role
     resource: selur-badpod01
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod02
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod03
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod04
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod05
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod06
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod07
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod08
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod09
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod10
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod11
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod12
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod13
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod14
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod15
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod16
     kind: Pod
-    result: fail
+    result: error
   - policy: disallow-selinux
     rule: selinux-user-role
     resource: selur-badpod17
     kind: Pod
-    result: fail
+    result: error
 # ###### Pods - Good
 #   - policy: disallow-selinux
 #     rule: selinux-user-role
