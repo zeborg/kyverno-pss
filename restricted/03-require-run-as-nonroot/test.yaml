@@ -8,7 +8,7 @@ results:
   - policy: require-run-as-non-root
     rule: run-as-non-root
     resource: badpod01
-    kind: skipped
+    kind: warning
     result: error
   - policy: require-run-as-non-root
     rule: run-as-non-root
@@ -18,7 +18,7 @@ results:
   - policy: require-run-as-non-root
     rule: run-as-non-root
     resource: badpod03
-    kind: skipped
+    kind: skip
     result: error
   - policy: require-run-as-non-root
     rule: run-as-non-root
