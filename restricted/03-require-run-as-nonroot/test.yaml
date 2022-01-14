@@ -9,7 +9,7 @@ results:
     rule: run-as-non-root
     resource: badpod01
     kind: Pod
-    result: fail
+    result: error
   - policy: require-run-as-non-root
     rule: run-as-non-root
     resource: badpod02
@@ -19,7 +19,7 @@ results:
     rule: run-as-non-root
     resource: badpod03
     kind: Pod
-    result: fail
+    result: error
   - policy: require-run-as-non-root
     rule: run-as-non-root
     resource: badpod04
